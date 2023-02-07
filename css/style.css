@@ -35,6 +35,10 @@ li span {
     align-items: center;
     margin-bottom: 50px;
 }
+.background_form{
+    background-image:url("/asset/footer-contact-bg.webp") ;
+    background-size: cover;
+} 
 footer{
     height: 20vh;
     background: var(--grigioscuro);
