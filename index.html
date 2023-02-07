@@ -16,6 +16,18 @@
     </header>
     <h1>nuovo titolo</h1>
     <span>Gianluca</span>
+
+    <div class="container">
+      <div class="cat" v-for="(cat, index) in cats">
+        <img :src="cat.image" alt="Cat picture"><br>
+        <h3>{{cat.title}}</h3>
+        <h6>{{cat.text}}</h6>
+        
+      </div>
+    </div>
+
+
+
   </div>
   
     <div class="container-fluid background_form ">
@@ -74,6 +86,26 @@
         <button class="btn btn-primary" type="submit">Submit form</button>
       </form>
     </div>
+    <footer>
+      <div class="col-12 d-flex text-center">
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <img src="asset/graphiclogo.png" alt="logo">
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Registrati</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Contatti</a></li>
+            <li><a href="">Lavora con noi</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <img src="asset/graphiclogo.png" alt="logo">
+        </div>
+      </div>
+    </footer>
 <script src='https://unpkg.com/vue@3/dist/vue.global.js'></script>
 <script src="js/main.js"></script>
 </body>

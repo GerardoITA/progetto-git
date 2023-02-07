@@ -1,15 +1,4 @@
 :root {
     --grigioscuro: #1C1C1C;
 }
-.background_form{
-    background-image: url("/asset/footer-contact-bg.webp");
-    background-size: cover;
-
-}
-h5{
-    color: red;
-}
-h2{
-    color: white;
-}
 
