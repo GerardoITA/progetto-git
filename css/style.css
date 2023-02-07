@@ -1,4 +1,22 @@
 :root {
     --grigioscuro: #1C1C1C;
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
 
+footer{
+    height: 20vh;
+    background: var(--grigioscuro);
+    color:white;
+}
+footer img{
+    filter: invert();
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
