@@ -1,17 +1,15 @@
 :root {
     --grigioscuro: #1C1C1C;
 }
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
+    font-size: 0.6rem;
 }
 
-
-header {
-    padding: 1rem;
-}
 
 ul {
     min-width: 600px;
