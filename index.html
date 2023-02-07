@@ -16,6 +16,18 @@
     </header>
     <h1>nuovo titolo</h1>
     <span>Gianluca</span>
+
+    <div class="container">
+      <div class="cat" v-for="(cat, index) in cats">
+        <img :src="cat.image" alt="Cat picture"><br>
+        <h3>{{cat.title}}</h3>
+        <h6>{{cat.text}}</h6>
+        
+      </div>
+    </div>
+
+
+
   </div>
   
     
