@@ -53,28 +53,20 @@
         La giusta soluzione per la vostra impresa
       </h2>
   </section>
-
-
     <div class="container">
       <div class="cat" v-for="(cat, index) in cats">
         <img :src="cat.image" alt="Cat picture"><br>
         <h3>{{cat.title}}</h3>
         <h6>{{cat.text}}</h6>
-        
       </div>
     </div>
-
-
-
-  
-  
     <footer>
       <div class="col-12 d-flex text-center">
         <div class="col-4 d-flex justify-content-center align-items-center">
           <img src="asset/graphiclogo.png" alt="logo">
         </div>
         <div class="col-4 d-flex justify-content-center align-items-center">
-          <ul>
+          <ul class="d-flex flex-column justify-content-center align-items-center">
             <li><a href="">Home</a></li>
             <li><a href="">Registrati</a></li>
             <li><a href="">Login</a></li>

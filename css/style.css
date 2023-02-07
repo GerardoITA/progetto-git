@@ -37,7 +37,6 @@ li span {
     margin-bottom: 50px;
 }
 footer{
-    height: 20vh;
     background: var(--grigioscuro);
     color:white;
 }
@@ -47,6 +46,7 @@ footer img{
 footer a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 
 #h2 {
